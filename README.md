@@ -57,7 +57,7 @@ To combine replicates into one xml file:
 
 To do structure prediction:
 - ``rf-fold -g -ct --folding-method 2 {combined_output_folder}/{file}.xml -dp -o {fold_output}``
-- eg: ``rf-fold -g -ct --folding-method 2 DMS-siRBM42_combined/MYC_5UTR.xml -dp -o DMS_siRBM42_fold
+- eg: ``rf-fold -g -ct --folding-method 2 DMS-siRBM42_combined/MYC_5UTR.xml -dp -o DMS_siRBM42_fold``
 
 The fold command outputs 3 folders, `dotplot` (for IGV visualization), `images` (for linear folding plot) and `structures` for `.ct` file
 
